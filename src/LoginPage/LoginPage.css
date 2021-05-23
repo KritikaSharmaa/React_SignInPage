@@ -1,0 +1,88 @@
+.background {
+  height: 100vh;
+  /* width: 100vw; */
+  background-image: linear-gradient(150deg, #111010ef, #2c262686),
+    url("../Image/back3.jpg");
+  background-size: cover;
+}
+
+.container1 {
+  height: 28em;
+  width: 18em;
+  background-color: rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 5px;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 0.1px rgb(255, 255, 255), 0em 0em 1em rgba(255, 255, 255, 0.5);
+}
+@media only screen and (max-width: 750px) {
+  .container {
+    width: 19rem;
+  }
+}
+.heading {
+  text-align: center;
+  /* color:#D2691E; */
+  color: #00ced1;
+  font-family: "Roboto", sans-serif;
+  margin-top: 1em;
+}
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 16em;
+  height: 20em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.inputcol {
+  width: 15rem;
+  height: 2rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: none;
+  border-bottom: 2px solid #f0ffff;
+  padding: 1rem;
+  outline: none;
+  color: #00ced1;
+}
+.inputcol:focus {
+  border-bottom: 0.2rem solid #00ced1;
+}
+::placeholder {
+  color: rgba(255, 255, 255, 0.4);
+  font-weight: 550;
+  margin: 1rem;
+}
+.btn {
+  width: 10rem;
+  height: 2.2rem;
+  border: none;
+  border-radius: 100px;
+  box-shadow: rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  font-weight: 600;
+}
+
+h6 {
+  color: rgb(255, 255, 255);
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  margin: 1rem;
+  outline: none;
+  border: none;
+}
+.btn:hover {
+  background-color: #00ced1;
+  color: white;
+  font-weight: 600;
+  font-size: 0.9rem;
+  box-shadow: inset 0 -3em 3em rgba(0, 0, 0, 0.1),
+    0 0 0 0.1px rgb(255, 255, 255), 0em 0em 1em rgba(255, 255, 255, 0.5);
+}
